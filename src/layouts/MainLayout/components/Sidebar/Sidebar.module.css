@@ -1,0 +1,12 @@
+.sidebarWrapper {
+  background-color: #ffffff;
+  width: 232px;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+  padding-top: 55px;
+  z-index: 0;
+  flex-shrink: 1;
+  align-items: center;
+  pointer-events: auto; 
+}

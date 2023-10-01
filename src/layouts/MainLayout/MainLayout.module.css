@@ -1,0 +1,15 @@
+.mainLayout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.mainContent {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    background-color: #F3F3F3;
+    padding: 20px;
+    flex-direction: column;
+}

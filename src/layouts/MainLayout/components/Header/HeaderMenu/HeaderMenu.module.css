@@ -1,0 +1,38 @@
+.headerMenu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.headerMenuItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.headerMenuItemText {
+  color: #4a94eb;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.headerMenuItemText:hover {
+  color: black;
+}
+
+.headerMenuItem {
+  cursor: pointer;
+}
+.headerMenuItem:hover p {
+  color: black;
+}
+
+.headerMenuItem:hover svg path {
+  fill: black;
+}
+
+.headerMenuItem svg path {
+  transition: fill 0.3s ease;
+}

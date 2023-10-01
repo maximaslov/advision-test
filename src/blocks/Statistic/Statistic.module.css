@@ -1,0 +1,26 @@
+.statisticItem {
+  transition: all 0.3s ease;
+}
+
+.statisticItem:hover {
+  box-shadow: 0px 5px 5px #8c8c8c40;
+}
+
+.yellowPath {
+  transition: all 0.3s ease;
+}
+
+.yellowPath:hover {
+  transform: scale(1.005);
+  fill: orange;
+}
+
+.greenPath {
+    transition: all 0.3s ease;
+}
+
+.greenPath:hover {
+    transform: scale(1.005);
+    fill: rgb(4, 189, 170);
+  }
+  

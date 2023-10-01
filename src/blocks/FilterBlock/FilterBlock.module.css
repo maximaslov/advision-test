@@ -1,0 +1,95 @@
+.inputBackground {
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: all 0.3s ease;
+  border: solid 0.063rem #d7d3d3;
+  background-color: #ffffff;
+}
+
+.inputContainer {
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+  gap: 3;
+  z-index: 1;
+  padding-right: 9px;
+  width: 176px;
+  display: flex;
+}
+
+.inputContainer svg:hover {
+  cursor: pointer;
+}
+
+.inputContainer svg path {
+    transition: all 0.3s ease;
+  }
+
+.inputContainer svg:hover path {
+  fill: black;
+}
+
+.input {
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+  padding: 0 9px 0 11px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  border: none;
+  color: #333; /* Замените на ваш цвет текста */
+  outline: none;
+  font-size: 16px; /* Замените на ваш размер шрифта */
+  font-weight: normal; /* Замените на ваш вес шрифта */
+  line-height: 1.5; /* Замените на вашу высоту строки */
+  background: transparent !important;
+}
+
+/* Стили для плейсхолдера */
+.input::placeholder {
+  color: #8a8a8a; /* Замените на ваш цвет плейсхолдера */
+  font-size: 15px; /* Замените на ваш размер шрифта */
+  font-weight: normal; /* Замените на ваш вес шрифта */
+  line-height: 1.5; /* Замените на вашу высоту строки */
+  user-select: none;
+}
+
+/* Стили для автозаполнения */
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+  transition: background-color 500000s ease-in-out 0s,
+    color 500000s ease-in-out 0s;
+}
+
+/* Стили для фокуса */
+.input:focus {
+  outline: none;
+}
+
+/* Стили для фокуса на бэкграунде */
+.input:focus ~ .inputBackground {
+  border-color: #4a94eb; /* Замените на ваш цвет активной обводки */
+}
+
+/* Стили для плейсхолдера во фокусе */
+.input:focus::placeholder {
+  color: transparent;
+}
+
+/* Стили для отключенного состояния */
+.input:disabled {
+  background: #f7f7f7; /* Замените на ваш цвет фона в отключенном состоянии */
+  color: transparent;
+}
+
+/* Стили для бэкграунда в отключенном состоянии */
+.input:disabled ~ .inputBackground {
+  background: #f7f7f7; /* Замените на ваш цвет фона в отключенном состоянии */
+}
