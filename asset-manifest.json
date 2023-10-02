@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/advision-test/static/css/main.b50047e7.css",
-    "main.js": "/advision-test/static/js/main.39b637a0.js",
+    "main.css": "/advision-test/static/css/main.efe90b0f.css",
+    "main.js": "/advision-test/static/js/main.5a20a9f3.js",
     "static/js/787.0c3f432a.chunk.js": "/advision-test/static/js/787.0c3f432a.chunk.js",
     "index.html": "/advision-test/index.html",
-    "main.b50047e7.css.map": "/advision-test/static/css/main.b50047e7.css.map",
-    "main.39b637a0.js.map": "/advision-test/static/js/main.39b637a0.js.map",
+    "main.efe90b0f.css.map": "/advision-test/static/css/main.efe90b0f.css.map",
+    "main.5a20a9f3.js.map": "/advision-test/static/js/main.5a20a9f3.js.map",
     "787.0c3f432a.chunk.js.map": "/advision-test/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b50047e7.css",
-    "static/js/main.39b637a0.js"
+    "static/css/main.efe90b0f.css",
+    "static/js/main.5a20a9f3.js"
   ]
 }
